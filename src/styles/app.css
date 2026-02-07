@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #13202f;
+  background: #f4f6f9;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.panel {
+  width: min(980px, 95vw);
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  background: #1b5eab;
+  color: white;
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.card {
+  text-align: left;
+  background: #eef4fb;
+  color: #13202f;
+}
